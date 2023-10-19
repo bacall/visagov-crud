@@ -29,10 +29,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="make-email">Contacto</a>
                         </li>
-                        
+
                     </ul>
                     <ul style="list-style: none">
-                      @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                        @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                             <li class="nav-item float-end p-2">
                                 <a rel="alternate" hreflang="{{ $localeCode }}"
                                     href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
