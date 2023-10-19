@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
     <h1>Contacto</h1>
-    <h5>Este formulario solo comprueba que los campos sean correctos. No envía nada</h5>
+    <h6>Este formulario solo comprueba que los campos sean correctos. No envía nada</h6>
     <div class="container py-4">
 
         <!-- Bootstrap 5 starter form -->
