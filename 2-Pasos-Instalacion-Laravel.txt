@@ -1,0 +1,7 @@
+1) composer create-project laravel/laravel visagov-crud  9
+
+2) php artisan --version
+   9.52.16
+
+3) Llamar a Bootstrap 5 con sus CDN en la layout.blade.php
+
